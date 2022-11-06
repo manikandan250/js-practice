@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js pattern method</title>
+  </head>
+<body>
+	<script>
+		for(i=65;i<=73;i++){
+			for(j=72;j>=i;j--){
+			document.write("&nbsp");
+			}
+			for(k=65;k<=i;k++){
+				if(i%2==0){
+					continue;
+					}
+				document.write(String.fromCharCode(k));
+			}
+			document.write("<br>");
+		}
+		
+		
+		
+		
+	</script>
+</body>
+</html>
