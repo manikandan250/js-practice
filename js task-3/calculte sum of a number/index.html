@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sum of a number</title>
+  </head>
+<body>
+	<script>
+		var i=parseInt(prompt("enter the number"));
+		var j=0;
+			while(i>0){
+				let rem=(i%10);
+					i=(i-rem)/10;
+					j+=rem;
+				}
+				document.write(j);
+				
+	</script>
+</body>
+</html>
