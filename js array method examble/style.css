@@ -1,4 +1,11 @@
 table{
 	border-color:blue;
 	width:100%;
+	border-collapse:collapse;
+}
+table th{
+	padding:1.2rem;
+}
+tbody td{
+	padding:1.5rem;
 }

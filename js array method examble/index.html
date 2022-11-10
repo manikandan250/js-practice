@@ -9,7 +9,7 @@
 <body>
 	<section>
 		<div>
-			<table border=2>
+			<table border=2 cellpadding=3>
 				<thead>
 					<tr>
 						<th>S.NO</th>
@@ -24,7 +24,7 @@
 					<tr>
 						<td>01</td>
 						<td>LENGTH()</td>
-						<td>array.length</td>
+						<td>array.length()</td>
 						<td>var names = ["gopi", "ganesh", "karthi", "vel"];</td>
 						<td>04</td>
 						<td>array length</td>
@@ -32,7 +32,7 @@
 					<tr>
 						<td>02</td>
 						<td>CONCAT()</td>
-						<td>array.cocat</td>
+						<td>array.concat()</td>
 						<td>var names = ["gopi", "ganesh", "karthi", "vel"];<br>
 							var names1 = ["guru"];
 						</td>
@@ -43,7 +43,7 @@
 					<tr>
 						<td>03</td>
 						<td>CONSTRUCTOR</td>
-						<td>array.constructor</td>
+						<td>array.constructor()</td>
 						<td>var names = ["gopi", "ganesh", "karthi", "vel"];</td>
 						<td>04</td>
 						<td>array length</td>
@@ -51,11 +51,38 @@
 					
 					<tr>
 						<td>04</td>
-						<td>CONSTRUCTOR</td>
-						<td>array.constructor</td>
-						<td>var names = ["gopi", "ganesh", "karthi", "vel"];</td>
-						<td>04</td>
-						<td>array length</td>
+						<td>FILTER()</td>
+						<td>array.filter()</td>
+						<td>var ages = [32, 33, 16, 40];<br>return age >= 18;</td>
+						<td>32,33,40</td>
+						<td>it filter all values in array</td>
+					</tr>
+					
+					<tr>
+						<td>05</td>
+						<td>FINDINDEX()</td>
+						<td>array.findindex()</td>
+						<td>var ages = [11, 33, 16, 10];<br>return age >18;</td>
+						<td>1</td>
+						<td>array position</td>
+					</tr>
+					
+					<tr>
+						<td>06</td>
+						<td>LASTINDEXOF()</td>
+						<td>array.lastindexof()</td>
+						<td>var names = ["gopi", "ganesh", "karthi", "vel","karthi"];<br>var index = names.lastIndexOf("karthi");</td>
+						<td>4</td>
+						<td>last array position</td>
+					</tr>
+					
+					<tr>
+						<td>07</td>
+						<td>FOREACH()</td>
+						<td>array.foreach()</td>
+						<td>const fruits = ["apple", "orange", "cherry"];<br>fruits.forEach(Function);</td>
+						<td>0: apple<br>1:orange<br>2:cherry</td>
+						<td>return not support</td>
 					</tr>
 				</tbody>
 			</table>
